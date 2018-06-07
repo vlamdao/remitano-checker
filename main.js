@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const telegram_token = process.env.telegram_token;
 // const telegram_chat_id = process.env.telegram_chat_id;
-const MONGO_URL = process.env.MONGO_URL;
+const MONGODB_URI = process.env.MONGODB_URI;
 const TIMEZONE = process.env.TIMEZONE;
 
 moment().tz(TIMEZONE).format();
