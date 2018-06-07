@@ -18,7 +18,7 @@ let offer_type = 'sell';
 
 var mongoose = require('mongoose');
 
-mongoose.connect(MONGO_URL);
+mongoose.connect(MONGODB_URI);
 
 var Schema = mongoose.Schema;
 
