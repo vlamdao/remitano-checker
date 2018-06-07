@@ -37,9 +37,9 @@ var db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error:'));
 
-const bot = new TelegramBot(telegram_token, {
-  polling: true
-});
+// const bot = new TelegramBot(telegram_token, {
+//   polling: true
+// });
 
 function generate_endpoint(coin, offer_type = 'sell', page = 1) {
   let endpoint;
